@@ -426,4 +426,5 @@ bind -n M-Down select-pane -D
 bind-key -n C-S-Left swap-window -t -1
 bind-key -n C-S-Right swap-window -t +1
 
-
+# default shell zsh
+set-option -g default-shell /usr/bin/zsh
